@@ -2,7 +2,7 @@
   "basics": {
     "name": "David Da Silva",
     "label": "Lead Dev Backend, DevOps - Java / Angular",
-    "summary": "Développeur Java avec plus de 10 ans d’expérience, intervenant comme Tech Lead ou pour monter de nouvelles équipes. Formateur certifié Spring depuis 8 ans et certifié Confluent Developer for Apache Kafka.",
+    "summary": "Développeur Java avec plus de 10 ans d’expérience. J'interviens le plus souvent en tant que Tech lead d’une équipe existante ou que je dois monter sur pied pour un nouveau projet. Je suis également formateur certifié Spring et Kafka ce qui me permet de rester à jour constamment sur le sujet.",
     "theme": "blue",
     "image": "/me_avatar.jpg",
     "location": {
@@ -39,12 +39,16 @@
       "location": "Mérignac, France",
       "startDate": "2022-07",
       "endDate": "2025-06",
+      "url": "",
       "summary": "Projet 'Chaine de référencement' visant a récolter des catalogues de produits étérogènes pour les rationnaliser et permettre le référencement automatique de produits et leurs mise à jour.",
       "highlights": [
         "Conception d'une architecture de 30 microservices",
         "Agrégation et consolidation de données via ETL et MapStrucs",
         "Communication via topics Kafka (CDC, Kafka Streams) et webservices REST",
         "En charge d'une équipe de 3 developpeurs et des entretiens d'embauche"
+      ],
+      "achievements": [
+        "J'ai vu le projet que j'ai initié arriver jusqu'en prod et être utilisé pleinement"
       ],
       "skills": [
         "Java 21",
@@ -65,14 +69,15 @@
       "position": "Lead Dev Java, DevOps",
       "startDate": "2021",
       "endDate": "2022",
+      "url": "",
       "summary": "Projet 'Price Filter' visant à n'envoyer que les mises à jour de prix pertinentes aux caisses pour palier à leurs ressources limités.",
       "highlights": [
         "Contexte d'urgence : des magasins ont fermé car les caisses ne répondaient plus",
         "Consommation et production sur topics Kafka",
         "Création d'un algorithme permettant de détécter la partie du message ayant réellement changé sans avoir a stocker le précédent message, en utilisant des sommes de contrôle MurMurHash",
-        "Découpage d'un monolithe en microservices Spring Boot",
-        "Solution déployée en production avec succès"
+        "Découpage d'un monolithe en microservices Spring Boot"
       ],
+      "achievements": ["Solution déployée en production avec succès"],
       "skills": [
         "Java 17",
         "Spring Boot",
@@ -89,12 +94,14 @@
       "position": "Lead Dev Java, DevOps",
       "startDate": "2020",
       "endDate": "2021",
+      "url": "",
       "summary": "Projet 'Seller-Order' pour gérer les commandes des vendeurs de la marketplace",
       "highlights": [
         "Microservice Spring Boot pour remplacement d’un système legacy PHP",
         "Intégration avec l'OMS OneStock",
         "Tests de charge avec Locust et monitoring Datadog"
       ],
+      "achievements": ["Gain de performances x100 par rapport au legacy"],
       "skills": [
         "Java 11",
         "Spring Boot",
@@ -112,6 +119,7 @@
       "position": "Dev Backend, Lead Tech Front, DevOps",
       "startDate": "2019",
       "endDate": "2020",
+      "url": "",
       "summary": "Projet 'Orange Alias' permettant d'anonymiser des numéros de téléphone à destination de jeux concours.",
       "highlights": [
         "Rétro-ingénierie d’un legacy non documenté",
@@ -120,6 +128,7 @@
         "Mise en place d'un déploiement cloud",
         "Formations internes Gitlab-CI et Cypress pour d'autres développeurs"
       ],
+      "achievements": ["Refonte ISO fonctionnelle réussie, découverte de fonctionnalités cachées/oubliées"],
       "skills": [
         "Java 11",
         "Spring Boot",
@@ -138,33 +147,38 @@
       "area": "MIAGE et MBDS",
       "studyType": "Master",
       "startDate":"2013",
-      "endDate": "2014"
+      "endDate": "2014",
+      "url": ""
     },
     {
       "institution": "Université de Nice Sophia Antipolis",
       "area": "Miage",
       "studyType": "Licence",
       "startDate": "2011",
-      "endDate": "2012"
+      "endDate": "2012",
+      "url": ""
     },
     {
       "institution": "Université de Nice Sophia Antipolis",
       "area": "Informatique",
       "studyType": "DUT",
       "startDate": "2009",
-      "endDate": "2011"
+      "endDate": "2011",
+      "url": ""
     }
   ],
   "certificates": [
     {
       "name": "Spring Professional",
       "issuer": "Pivotal",
-      "date": "2017"
+      "date": "2017",
+      "url": ""
     },
     {
       "name": "Confluent Developer for Apache Kafka",
       "issuer": "Confluent",
-      "date": "2025"
+      "date": "2025",
+      "url": ""
     }
   ],
   "skills": [
@@ -209,43 +223,46 @@
   ],
   "projects": [
     {
-      "name": "My blog",
+      "name": "Mon blog",
       "isActive": true,
-      "description": "A personal blog where I write about technical subjects, mainly java and tests.",
+      "description": "Mon blog personnel sur lequel j'aborde des sujets techniques, principalement sur les tests et l'écosystème java.",
       "url": "https://daviddasilva.net",
-      "highlights": []
+      "highlights": [
+        "C'est en anglais",
+        "Il y a des images"
+      ]
 
     },
     {
-      "name": "Weather App",
+      "name": "Cartographie des antécédents technico-fonctionnels",
       "isActive": true,
-      "description": "A web application that provides weather information for any location.",
+      "description": "Axer les plateformes conversationnelles en trade-off",
       "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
+        "Challenger les conceptions dans le pipe",
+        "Solutionner le pitch affinitaire"
       ],
-      "url": "https://weatherapp.com"
-    },
-    {
-      "name": "Task Manager",
-      "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
-      "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
-      ],
-      "url": "https://taskmanager.com",
+      "url": "https://www.bullshitor.com/",
       "github": "https://github.com"
     },
     {
-      "name": "E-commerce Site",
-      "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
+      "name": "Procès verbal des antécédents prospectif",
+      "isActive": true,
+      "description": "Targeter les objectifs cibles user centrics",
       "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
+        "Maximiser un lean affinitaire",
+        "Twister une roadmap leader d'opinion"
       ],
-      "url": "https://ecommerce.com"
+      "url": "https://www.bullshitor.com/"
+    },
+    {
+      "name": "Quadrilatère de modelisation sagittal",
+      "isActive": true,
+      "description": "Évènementialiser le brand content intuitif.",
+      "highlights": [
+        "Crowdsourcer un effet waouh sectoriel",
+        "Extraire un terrain d'experimentation peer-to-peer"
+      ],
+      "url": "https://www.bullshitor.com/"
     }
   ]
 }
