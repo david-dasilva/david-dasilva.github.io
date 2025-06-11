@@ -1,333 +1,220 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
+    "name": "David Da Silva",
+    "label": "Lead Dev Backend, DevOps - Java / Angular",
+    "summary": "Développeur Java avec plus de 10 ans d’expérience, intervenant comme Tech Lead ou pour monter de nouvelles équipes. Formateur certifié Spring depuis 8 ans et certifié Confluent Developer for Apache Kafka.",
+    "theme": "blue",
     "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
-    "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
-    "theme": "default",
     "location": {
-      "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "city": "Bordeaux",
+      "countryCode": "FR",
+      "region": "France"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
-      },
-      {
-        "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
+        "username": "david-dasilva-net",
+        "url": "https://www.linkedin.com/in/david-dasilva-net/"
       },
       {
         "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "username": "david-dasilva",
+        "url": "https://github.com/david-dasilva"
+      },
+      {
+        "network": "Mastodon",
+        "username": "@m3phistos",
+        "url": "https://framapiaf.org/@m3phistos"
       }
-    ]
+    ],
+    "email": "david.dasilva@zenika.com",
+    "phone": "+33658129393",
+    "url": "https://www.daviddasilva.net"
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
+      "name": "Cultura",
+      "position": "Tech Lead Backend",
       "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
-      "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
+      "location": "Mérignac, France",
+      "startDate": "2022-07",
+      "endDate": "2025-06",
+      "summary": "Projet 'Chaine de référencement' visant a récolter des catalogues de produits étérogènes pour les rationnaliser et permettre le référencement automatique de produits et leurs mise à jour.",
       "highlights": [
-        "Improved website performance by optimizing code"
-      ],
-      "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
-      ],
-      "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
+        "Conception d'une architecture de 30 microservices",
+        "Agrégation et consolidation de données via ETL et MapStrucs",
+        "Communication via topics Kafka (CDC, Kafka Streams) et webservices REST",
+        "En charge d'une équipe de 3 developpeurs et des entretiens d'embauche"
       ],
       "skills": [
-        "React",
-        "Tailwind",
-        "GitHub"
+        "Java 21",
+        "Micronaut",
+        "Kafka",
+        "Kafka Connect",
+        "Kafka Streams",
+        "MongoDB",
+        "MapStructs",
+        "Talend",
+        "ArgoCD",
+        "Kubernetes",
+        "GitlabCI"
       ]
     },
     {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
+      "name": "Decathlon",
+      "position": "Lead Dev Java, DevOps",
+      "startDate": "2021",
+      "endDate": "2022",
+      "summary": "Projet 'Price Filter' visant à n'envoyer que les mises à jour de prix pertinentes aux caisses pour palier à leurs ressources limités.",
       "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
-      "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
+        "Contexte d'urgence : des magasins ont fermé car les caisses ne répondaient plus",
+        "Consommation et production sur topics Kafka",
+        "Création d'un algorithme permettant de détécter la partie du message ayant réellement changé sans avoir a stocker le précédent message, en utilisant des sommes de contrôle MurMurHash",
+        "Découpage d'un monolithe en microservices Spring Boot",
+        "Solution déployée en production avec succès"
       ],
       "skills": [
-        "Python",
-        "Django",
-        "SQL",
-        "Git"
+        "Java 17",
+        "Spring Boot",
+        "Kafka",
+        "GCP",
+        "AWS",
+        "Azure",
+        "OpenApi",
+        "Kibana"
       ]
     },
     {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
+      "name": "Mano Mano",
+      "position": "Lead Dev Java, DevOps",
+      "startDate": "2020",
+      "endDate": "2021",
+      "summary": "Projet 'Seller-Order' pour gérer les commandes des vendeurs de la marketplace",
       "highlights": [
-        "Completed several client projects successfully"
+        "Microservice Spring Boot pour remplacement d’un système legacy PHP",
+        "Intégration avec l'OMS OneStock",
+        "Tests de charge avec Locust et monitoring Datadog"
       ],
       "skills": [
-        "HTML",
-        "CSS"
+        "Java 11",
+        "Spring Boot",
+        "Gitlab-CI",
+        "AWS",
+        "Locust",
+        "Postman",
+        "OpenApi",
+        "Datadog",
+        "Kong"
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "Local Coding Club",
-      "position": "Volunteer",
-      "url": "https://codingclub.com/",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
-      "summary": "Helped organize coding workshops and mentored new members.",
+      "name": "Orange OAB",
+      "position": "Dev Backend, Lead Tech Front, DevOps",
+      "startDate": "2019",
+      "endDate": "2020",
+      "summary": "Projet 'Orange Alias' permettant d'anonymiser des numéros de téléphone à destination de jeux concours.",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        "Rétro-ingénierie d’un legacy non documenté",
+        "Refonte ISO fonctionnelle en Spring Boot et Angular",
+        "Intégration de la solution maison d'authentification avec Spring Sécurity",
+        "Mise en place d'un déploiement cloud",
+        "Formations internes Gitlab-CI et Cypress pour d'autres développeurs"
+      ],
+      "skills": [
+        "Java 11",
+        "Spring Boot",
+        "Spring Security",
+        "Angular 8",
+        "Cypress",
+        "Gitlab-CI",
+        "Kubernetes",
+        "Docker"
       ]
     }
   ],
   "education": [
     {
-      "institution": "State University",
-      "url": "https://stateuniversity.edu",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-09-01",
-      "endDate": "2022-05-01",
-      "score": "3.8",
-      "courses": [
-        "CS101 - Introduction to Computer Science",
-        "CS102 - Data Structures"
-      ]
-    },
-    {
-      "institution": "Tech Institute",
-      "url": "https://techinstitute.edu",
-      "area": "Software Engineering",
+      "institution": "Université de Nice Sophia Antipolis",
+      "area": "MIAGE et MBDS",
       "studyType": "Master",
-      "startDate": "2020-09-01",
-      "endDate": "2022-12-01",
-      "score": "3.9",
-      "courses": [
-        "SE201 - Advanced Software Development",
-        "SE202 - Software Architecture and Design"
-      ]
+      "startDate":"2013",
+      "endDate": "2014"
     },
     {
-      "institution": "City College",
-      "url": "https://citycollege.edu",
-      "area": "Information Technology",
-      "studyType": "Associate Degree",
-      "startDate": "2017-01-01",
-      "endDate": "2019-12-01",
-      "score": "3.7",
-      "courses": [
-        "IT101 - Networking Fundamentals",
-        "IT102 - Database Management Systems"
-      ]
+      "institution": "Université de Nice Sophia Antipolis",
+      "area": "Miage",
+      "studyType": "Licence",
+      "startDate": "2011",
+      "endDate": "2012"
+    },
+    {
+      "institution": "Université de Nice Sophia Antipolis",
+      "area": "Informatique",
+      "studyType": "DUT",
+      "startDate": "2009",
+      "endDate": "2011"
     }
   ],
   "certificates": [
     {
-      "name": "Full Stack Web Development",
-      "date": "2023-05-01",
-      "issuer": "Online University",
-      "url": "https://onlineuniversity.com/certificates/fullstack"
+      "name": "Spring Professional",
+      "issuer": "Pivotal",
+      "date": "2017"
+    },
+    {
+      "name": "Confluent Developer for Apache Kafka",
+      "issuer": "Confluent",
+      "date": "2025"
     }
   ],
   "skills": [
     {
-      "name": "Figma",
-      "level": "Expert",
-      "keywords": [
-        "Design",
-        "UI"
-      ]
+      "name": "Java",
+      "level": "expert"
     },
     {
-      "name": "Gitlab",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
+      "name": "Spring",
+      "level": "expert"
     },
     {
-      "name": "HTML",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend"
-      ]
+      "name": "Kubernetes",
+      "level": "advanced"
     },
     {
-      "name": "CSS",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
-      ]
+      "name": "Kafka",
+      "level": "advanced"
     },
     {
-      "name": "JavaScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
+      "name": "CI/CD",
+      "level": "advanced"
     },
     {
-      "name": "Tailwind",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code",
-        "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Beginner",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
+      "name": "Angular",
+      "level": "beginner"
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Français",
+      "fluency": "native"
     },
     {
-      "language": "Spanish",
-      "fluency": "Intermediate"
-    }
-  ],
-  "interests": [
+      "language": "Anglais",
+      "fluency": "professional working proficiency"
+    },
     {
-      "name": "Technology",
-      "keywords": [
-        "AI",
-        "Blockchain"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Smith",
-      "reference": "Reference…"
+      "language": "Portugais",
+      "fluency": "limited working proficiency"
     }
   ],
   "projects": [
     {
-      "name": "Personal Portfolio",
-      "isActive": false,
-      "description": "A personal portfolio website to showcase my projects and skills.",
-      "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
-      ],
-      "url": "https://johndoe.dev",
-      "github": "https://github.com"
+      "name": "My blog",
+      "isActive": true,
+      "description": "A personal blog where I write about technical subjects, mainly java and tests.",
+      "url": "https://daviddasilva.net",
+      "highlights": []
+
     },
     {
       "name": "Weather App",
